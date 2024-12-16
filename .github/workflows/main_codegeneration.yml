@@ -70,6 +70,6 @@ jobs:
           app-name: 'codeGeneration'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B00BB279825426FB55A1DCF8EA97343 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F587D43BB9F4036A0640359A0D7EE6E }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
